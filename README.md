@@ -1,3 +1,22 @@
+## Lab 2
+
+### App Description
+a flash cards app that provides functionality to create your own cards
+
+### App Walk-though
+<img src="https://media.giphy.com/media/62d2hxzNJhT534v39w/giphy.gif" width=200><br>
+
+
+## Required
+- [x] User can open the creation screen
+- [x] User can cancel out of the creation screen
+- [x] User can enter a new question and answer in the creation screen to then show it on the flashcard
+- [x] Push code to GitHub
+## Optional
+- [ ] User gets an error if they try to create a new flashcard with no question or answer
+- [ ] User can edit existing flashcard
+- [x] User can add multiple choice answers in the creation screen
+
 ## flashcards
 
 ### App Description
@@ -15,5 +34,5 @@ very basic flashcards app
 - [x] Push code to GitHub
 ## Optional
 - [x] Toggle the flashcard between the question side and the answer side
-- [ ] Style the question and answer side of the card to better distinguish between the two sides
-- [ ] Add selectable multiple choice answers beneath the card
+- [x] Style the question and answer side of the card to better distinguish between the two sides
+- [x] Add selectable multiple choice answers beneath the card
