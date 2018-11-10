@@ -1,3 +1,21 @@
+## Lab 3
+
+### App Description
+a basic flashcards app capable of creating, saving, and switching between multiple flashcards
+
+### App Walk-though
+<img src="https://media.giphy.com/media/1eyJHxoFqlhfL85oUl/giphy.gif" width=200><br>
+
+## Required
+- [x] User can browse through multiple flashcards
+- [x] User can re-open the app and see previously created flashcards
+- [x] Push code to GitHub
+## Optional
+- [ ] User can delete a flashcard
+- [ ] User can edit existing flashcard
+- [x] User can store multiple choice questions
+
+
 ## Lab 2
 
 ### App Description
@@ -17,7 +35,7 @@ a flash cards app that provides functionality to create your own cards
 - [ ] User can edit existing flashcard
 - [x] User can add multiple choice answers in the creation screen
 
-## flashcards
+## Lab 1
 
 ### App Description
 very basic flashcards app
