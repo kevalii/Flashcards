@@ -26,7 +26,8 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var prevButton: UIButton!
      @IBOutlet weak var nextButton: UIButton!
-   
+    @IBOutlet weak var delButton: UIButton!
+    
     // Flashcards array
     var flashcards = [Flashcard]()
     // Current index of flashcards
@@ -42,6 +43,14 @@ class ViewController: UIViewController {
         qLabel.isHidden = true
         aLabel.isHidden = false
     }
+    
+    @IBAction func didTapDel(_ sender: Any) {
+        flashcards.remove(at: currentIndex)
+        currentIndex = flashcards.count - 1
+        updateLabels()
+        updateNextPrevButtons()
+    }
+    
     
     @IBAction func didTapNext(_ sender: Any) {
         currentIndex += 1
@@ -95,6 +104,14 @@ class ViewController: UIViewController {
         else
         {
             prevButton.isEnabled = true
+        }
+        if flashcards.count == 1
+        {
+            delButton.isEnabled = false
+        }
+        else
+        {
+            delButton.isEnabled = true
         }
     }
     

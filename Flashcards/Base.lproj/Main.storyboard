@@ -106,6 +106,19 @@
                                     <action selector="didTapNext:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jsy-hs-xon"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DUu-Ag-g81">
+                                <rect key="frame" x="165" y="632" width="45" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Delete">
+                                    <color key="titleColor" red="1" green="0.5470607139" blue="0.58920578079999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <state key="disabled">
+                                    <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapDel:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4NU-5e-loa"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jIW-yK-a36">
                                 <rect key="frame" x="38" y="617" width="31" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -124,6 +137,7 @@
                         <outlet property="btn1" destination="8Fd-IG-HP7" id="pAL-cM-seb"/>
                         <outlet property="btn2" destination="ARv-LT-raP" id="EFR-V1-mpq"/>
                         <outlet property="btn3" destination="6nz-mU-8C1" id="Efn-nL-pOW"/>
+                        <outlet property="delButton" destination="DUu-Ag-g81" id="gCS-B0-0dY"/>
                         <outlet property="nextButton" destination="T2r-vu-WqP" id="gCW-uU-d9l"/>
                         <outlet property="prevButton" destination="jIW-yK-a36" id="io4-kr-fD0"/>
                         <outlet property="qLabel" destination="uh6-zd-FFT" id="lDl-nq-EMG"/>
